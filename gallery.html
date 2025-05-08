@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض ذكرياتنا</title>
+    <style>
+        @font-face {
+            font-family: 'CocoNextArabic';
+            src: url('https://db.onlinewebfonts.com/t/593331e50d21b6415d53fc7c416b5b8e.woff2') format('woff2');
+        }
+        body {
+            background-color: #f8d3e3;
+            background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffc0d6' d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E");
+            background-size: 80px 80px;
+            font-family: 'CocoNextArabic', 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .photo-placeholder {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f94d6a;
+        }
+        h1 {
+            color: #f94d6a;
+        }
+        .button {
+            padding: 20px;
+            font-size: 20px;
+            background-color: #f94d6a;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #f75c73;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1> 9 / 5 / 2019 </h1>
+    <button class="button" onclick="playAudio()">قبل لا تبلشي تنزلين بالصفحة بس دوسي هنا♥️🎧✨</button>
+<audio id="audioPlayer" preload="auto">
+  <source src="Song.mp3" type="audio/mpeg">
+  متصفحج ما يدعم تشغيل الصوت.
+</audio>
+
+<script>
+function playAudio() {
+  var audio = document.getElementById('audioPlayer');
+  audio.play();
+}
+</script>
+
+    <h2> اليوم، مرّ على علاقتنا ست سنين! ♥️✨</h2>
+    <h3>♾iyi ki varsın jana♾</h3>
+    <div class="gallery">
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1dsysjVXGyXRXQ8nrAjLEBef2wAzMuedd&sz=w1000"width="200">
+        </div>
+        <h4> هاي كانت البداية</h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1CfAZ8s3gBpSr_UKLssc6GmOxpGWqyV8h&sz=w1000" width="200">
+        </div>
+        <h4>وهنا ارتبطنا 9/5/2019 01:24</h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1HWHHBFKAEB__wMVYCQ-zzcTWevnMpUZa&sz=w1000" width="120">
+        </div>
+        <h4>وهاي كانت اول رسالة بخطك</h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1AtaE5CWLJJ09I151Loz6fVuDmqspG4Zt&sz=w1000" width="120">
+        </div>
+        <h4>جنجونيات</h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1xw2D2_bYTQaMsrak7XZldFxxRohNfxjr&sz=w1000" width="270">
+        </div>
+        <h4>وهي الرساله دزيتيها من صرلنا شهرين!😂 ما ندري بوقتها انه معقول نكمل هالفتره هاي كلها سوا !</h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1osJYx_E6Pn5wZjVGyYlm7wVJMoYfEsTC&sz=w1000" width="200">
+        </div>
+        <h4>وگد كلمتك وعالحلوة والمرة ضليتي وياي ولقيتج يمي وبصفي </h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1Ah3RshbP-rjqSlcR-2tgiwS5BIvwGBME&sz=w1000" width="120">
+        </div>
+        <h4>لما جنا نحجي اتصال بوتيم وتقربين المايك حتى لا تعلي صوتك وحد يسمعك</h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1eADqk_MTUPtHVP4hP8QqgBtBV4B0pF64&sz=w1000" width="120">
+        </div>
+        <h4> بعيني جنتي طفله </h4>
+        <div class="photo-placeholder">
+        <img src="https://drive.google.com/thumbnail?id=1sO2uiakbEnmJWFN7L9Fst_f8fnTlveoN&sz=w1000" width="120">
+        </div>
+        <h4>حتى لما صرتي صبية هم انتي بعيني طفله</h4>
+    </div>
+    <button class="button" onclick="window.location.href='message.html'">رسالة🙈♥️</button>
+</body>
+</html>
