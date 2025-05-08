@@ -1,15 +1,72 @@
-<!doctype html>
-<html lang="ar">
-  <head>
-    <meta charset="UTF-8"
-      <title>Anniversary</title>
-  </head>
-  <body>
-    <h1>
-      اهلا وسهلاً
-    </h1>
-    <audio controls>
-      <source src="Song.mp3" type="audio/mpeg">
-    </audio>
-  </body>
-</html> 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨♥️ذكرى تعارفنا</title>
+    <style>
+        @font-face {
+            font-family: 'CocoNextArabic';
+            src: url('https://db.onlinewebfonts.com/t/593331e50d21b6415d53fc7c416b5b8e.woff2') format('woff2');
+        }
+        body {
+            background-color: #f8d3e3;
+            background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffc0d6' d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E");
+            background-size: 80px 80px;
+            font-family: 'CocoNextArabic', 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+            overflow: hidden;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .heart {
+            position: relative;
+            margin: 20px 0;
+            animation: move 5s ease-in-out infinite;
+        }
+        @keyframes move {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(20px); }
+            100% { transform: translateY(0); }
+        }
+        .button {
+            padding: 20px;
+            font-size: 20px;
+            background-color: #f94d6a;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #f75c73;
+            transform: scale(1.05);
+        }
+        h1 {
+            color: #f94d6a;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ذكرى تعارفنا</h1>
+    <div class="heart">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZjk0ZDZhIj48cGF0aCBkPSJNMTIgMjEuMzVsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yOCAyIDguNSAyIDUuNDIgNC40MiAzIDcuNSAzYzEuNzQgMCAzLjQxLjgxIDQuNSAyLjA5QzEzLjA5IDMuODEgMTQuNzYgMyAxNi41IDMgMTkuNTggMyAyMiA1LjQyIDIyIDguNWMwIDMuNzgtMy40IDYuODYtOC41NSAxMS41NEwxMiAyMS4zNXoiLz48L3N2Zz4=" width="80" alt="قلب" style="fill: #f94d6a;">
+    </div>
+    <p>حبيبتي، تتذكرين بهيج يوم شصار ؟ شي كلش نحبه ! جاهزة تشوفين ؟!♥️✨</p>
+    <button class="button" onclick="window.location.href='gallery.html'">تعالي هنا شوفي🙈💕</button>
+</body>
+</html>
